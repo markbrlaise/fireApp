@@ -1,0 +1,23 @@
+/* NavBar.css */
+
+.bg-body-tertiary {
+    font-weight: bold;
+}
+/* Adjust the width and height as needed */
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+/* Float the buttons to the right */
+.navbar-buttons {
+    margin-left: auto; /* Pushes the buttons to the right */
+}
+
+@media only screen and (max-width: 992px)  {
+    .btn-alert, .btn-login {
+        width: 40vh;
+        margin: 0 auto 10px;
+    }
+}
+
+  

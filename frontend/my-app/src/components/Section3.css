@@ -1,0 +1,13 @@
+.Section3 {
+    background-color: #FEF4EA;
+    padding: 60px 0;
+}
+.Section3 p {
+    text-align: left;
+}
+
+@media only screen and (max-width: 800px)  {
+    .Section3 p {
+        text-align: center;
+    }
+}

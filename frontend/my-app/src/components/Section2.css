@@ -1,0 +1,31 @@
+.section2 {
+    padding: 50px 0;
+}
+.right-side {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.right-side h2 {
+    margin-bottom: 20px;
+}
+.btn-open-maps {
+    margin-right: 10px;
+}
+.btn-open-maps, .btn-learn-more {
+    padding: 6px 35px;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 800px)  {
+    .d-flex {
+        flex-direction: column;
+    }
+    .right-side {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .image-section2 {
+        width: 50%;
+    }
+}

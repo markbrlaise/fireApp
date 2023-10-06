@@ -1,0 +1,22 @@
+/* InfoCard.css */
+
+.info-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .info-card-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .info-card-title {
+    font-size: 1.5rem;
+    margin: 8px 0;
+  }
+  
+  .info-card-description {
+    font-size: 1rem;
+  }
+  

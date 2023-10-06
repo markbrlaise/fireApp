@@ -1,0 +1,35 @@
+.section1 {
+    background-color: #fef4ea;
+    padding: 50px 0 35px;
+}
+.left-side {
+    text-align: left;
+    padding-right: 20px;
+}
+.left-side p:nth-of-type(1) {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.left-side .btn-send-alert {
+    padding: 8px 30px;
+    margin-top: 10px;
+}
+.image-section1 {
+    width:100%;
+}
+@media only screen and (max-width: 800px)  {
+    .d-flex {
+        flex-direction: column;
+    }
+    .left-side {
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .image-section1 {
+        width: 95%;
+    }
+
+    
+}
